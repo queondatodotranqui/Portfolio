@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.main-content{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.info , .column{
+    width: 80%;
+    height: 100%;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.infoTexto{
+    height: 40%;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.column{
+    width: 20%;
+    padding: 30px 10px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.redes{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
