@@ -12,10 +12,53 @@ body{
 }
 
 .header{
-    height: 90px;
+    height: 150px;
     width: 100%;
     background-color: black;
     display: flex;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    align-items: flex-start;
+    padding-left: 50px;
+
+    h1:hover{
+        border-bottom: 1px solid white;
+    }
+}
+
+.navbar{
+    display: flex;
+    width: 60%;
+    height: 100%;
+
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+
+        a{
+            text-align: center;
+            width: 25%;
+            font-size: 1.5em;
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            background-color: black;
+            height: 60%;
+            line-height: 90px;
+            transition: 0.5s;
+        }
+        a:hover{
+            filter: invert(1);
+        }
+    }
 }
 
 .main-content{

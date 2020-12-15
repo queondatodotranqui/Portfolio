@@ -12,12 +12,75 @@ body {
 }
 
 .header {
-  height: 90px;
+  height: 150px;
   width: 100%;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: white;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 50px;
+}
+
+.logo h1:hover {
+  border-bottom: 1px solid white;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.navbar nav a {
+  text-align: center;
+  width: 25%;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  background-color: black;
+  height: 60%;
+  line-height: 90px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar nav a:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 .main-content {
