@@ -12,7 +12,7 @@ body{
 }
 
 .header{
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color: rgb(37, 37, 37);
     display: flex;
@@ -24,8 +24,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 40%;
-    align-items: flex-start;
-    padding-left: 50px;
+    align-items: center;
 
     h1:hover{
         border-bottom: 1px solid white;
@@ -40,7 +39,7 @@ body{
 
     nav{
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         width: 100%;
 
@@ -53,7 +52,7 @@ body{
             margin-left: 20px;
             background-color: rgb(20, 20, 20);
             height: 60%;
-            line-height: 90px;
+            line-height: 60px;
             transition: 0.5s;
         }
         a:hover{
