@@ -14,7 +14,7 @@ body {
 .header {
   height: 150px;
   width: 100%;
-  background-color: black;
+  background-color: #252525;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,6 +49,7 @@ body {
   display: flex;
   width: 60%;
   height: 100%;
+  padding-right: 20px;
 }
 
 .navbar nav {
@@ -68,10 +69,10 @@ body {
   text-align: center;
   width: 25%;
   font-size: 1.5em;
-  color: white;
+  color: #e0e0e0;
   text-decoration: none;
   margin-left: 20px;
-  background-color: black;
+  background-color: #141414;
   height: 60%;
   line-height: 90px;
   -webkit-transition: 0.5s;
