@@ -7,24 +7,79 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Nicolas Vera</title>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">
-            <h1> Nicolas Vera</h1>
-        </div>
-        <div class="navbar">
+    <div class="main">
+        <div class='header' id='top'>
+            <div class='logo'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-emoji-wink-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM7 6.5C7 5.672 6.552 5 6 5s-1 .672-1 1.5S5.448 8 6 8s1-.672 1-1.5zM4.285 9.567a.5.5 0 0 0-.183.683A4.498 4.498 0 0 0 8 12.5a4.5 4.5 0 0 0 3.898-2.25.5.5 0 1 0-.866-.5A3.498 3.498 0 0 1 8 11.5a3.498 3.498 0 0 1-3.032-1.75.5.5 0 0 0-.683-.183zm5.152-3.31a.5.5 0 0 0-.874.486c.33.595.958 1.007 1.687 1.007.73 0 1.356-.412 1.687-1.007a.5.5 0 0 0-.874-.486.934.934 0 0 1-.813.493.934.934 0 0 1-.813-.493z"/>
+                </svg>
+            </div>
             <nav>
-                <a href="#" id="proyecto"> Proyectos </a>
-                <a href="#" id="aboutMe"> About me</a>
-                <a href="#" id="contacto"> Contacto </a>
+                <a href='' data-goto='about'>About me</a>
+    
+                <a href='' ata-goto='proyectos'>Proyectos</a>
+    
+                <a href='' data-goto='contacto'>Contacto</a>
             </nav>
         </div>
-    </div>
-    <div class="main-content">
-
+        <div class='main-content'>
+            <div class='titulo'>
+                <div>Nicolas Vera</div>
+            </div>
+            <div class='subtitulo'>Desarrollador Front-End</div>
+        </div>
+        <div class='info' id='about'>
+            <div class='about'>
+                <div class='photo'>
+                    <img src='https://via.placeholder.com/340x350.png?text=Foto+mia+jeje'></img>
+                </div>
+                <div class='text'>
+                    <h2> Bera datos </h2>
+                    <p> Soy un actual estudiante de programacion de la UTNMDP.</p>
+                    <p> En mi lucha en aprender C encontre el desarrollo front-end y me engancho. </p>
+                    <p> Estoy en el camino a convertirme en Desarrollador MERN Stack.</p>
+                </div>
+            </div>
+            <div class='tools'>
+                <h2> Tecnologias </h2>
+                <div class='toolsIcons'>
+                    <div class='icons'></div>
+                    <div class='icons'></div>
+                    <div class='icons'></div>
+                    <div class='icons'></div>
+                    <div class='icons'></div>
+                </div>
+            </div>
+        </div>
+        <div class='proyectos'>
+            <h1> Proyectos personales</h1>
+            <div class='caja-proyectos'>
+                
+            </div>
+        </div>
+        <div class='contacto' id='contacto'>
+            <div class='contact-div'>
+                <div class='socials'>
+                    <h2> Ante cualquier duda comuniquese</h2>
+                    <h4> WhatsApp: 223 557-8480</h4>
+                    <!-- <Icons /> -->
+                </div>
+                <form method='post' class='form'>
+                    <input type='text' name='nombre' placeholder='Nombre'></input> 
+                    <input type='text' name='email' placeholder='Email'></input>
+                    <textarea name='consulta' placeholder='Su consulta'></textarea>
+                    <button type='submit'>Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class='footer'>
+            <div> &copy; Nicolas Vera. 2020</div>
+            <a href=''>Back to the top</a>
+        </div>
     </div>
 
     <script type="text/javascript" src="app.js"></script>
